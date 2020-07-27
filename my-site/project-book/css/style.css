@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img-title {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: green;
+}
+
+h2 {
+    font-size: 42px;
+    color: blue;
+}
+
+h3 {
+    font-size: 36px;
+    color: red;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: brown;
+}
+
+.dan-bio {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: #00BFFF; 
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.notes {
+    text-align: center;
+}
+
+.blize {
+    text-align: center;
+}
+
+.university {
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}

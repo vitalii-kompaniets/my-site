@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 30px;
+    background-color: #30bcdf;
+    padding: 30px 0;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    float: left;
+    width: 240px;
+    background-color: #94e5f9;
+    padding: 16px 0;
+
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav {
+    float: right;
+    width: 460px;
+    background-color: #94e5f9;
+    padding: 16px 0;
+
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left-column {
+    position: absolute;
+    width: 280px;
+    background-color: #30df93;
+    padding: 30px;
+}
+
+.column-block {
+    width: 220px;
+    background-color: #83fcc8;
+    padding: 45px 0;
+    margin-bottom: 30px;
+
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.column-block:last-child {
+    margin-bottom: 0;
+}
+
+.content {
+    float: right;
+    width: 680px;
+    background-color: #e4e5b5;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.content-item {
+    width: 620px;
+    background-color: #30bcdf;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.content-item::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content-item:last-child {
+    margin-bottom: 0;
+}
+
+.item-header {
+    background-color: #69daf6;
+    padding: 20px 0;
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-body {
+    background-color: #69daf6;
+    padding: 65px 0;
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-data {
+    width: 230px;
+    float: left;
+    background-color: #69daf6;
+    padding: 20px 0;
+
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-read-more {
+    width: 200px;
+    float: right;
+    background-color: #69daf6;
+    padding: 20px 0;
+
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.circle-mail {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: #3097df;
+}
+
+.mail {
+    color: #fff;
+    padding: 30px;
+    font-size: 40px;
+}

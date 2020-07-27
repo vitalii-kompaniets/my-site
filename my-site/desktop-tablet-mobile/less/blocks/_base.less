@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.example-section {
+    width: 100%;
+    height: 140px;
+    background-color: #eaeaea;
+}
+
+.container {
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    @media (min-width: 780px) {
+        width: 780px;
+    }
+    
+    @media (min-width: 1160px) {
+        width: 1160px;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img-info {
+    object-fit: cover;
+    margin-bottom: 20px;
+}

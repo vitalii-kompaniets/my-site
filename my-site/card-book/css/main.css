@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: #e3f2fd;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 967px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px 0px rgba(181, 220, 248, 1);
+    
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+
+.card-image-wrapper {
+    float: left;
+}
+
+.card::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card-content-wrapper {
+    float: right;
+    width: 426px;
+    padding-top: 10px;
+}
+
+.text-title { 
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #d0d4d7;
+    margin-bottom: 10px;
+}
+
+.book-header {
+    font-family: 'Noto Serif', serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #01a4bd;
+    margin-bottom: 22px;
+}
+
+.card-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #808790;
+    margin-bottom: 15px;
+}
+
+.card-text p {
+    margin-bottom: 15px;
+}
+
+.card-text p:last-child {
+    margin: 0;
+}
+
+.card-price {
+    margin-bottom: 22px;
+}
+
+.price-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #bfc5c8;
+}
+
+.price {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #e2013b;
+    padding-top: 9px;
+    padding-right: 36px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}

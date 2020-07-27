@@ -1,0 +1,41 @@
+/* -------------- Планшет ----------- */
+
+@media (max-width: 1159px) {
+    .section-news { padding: 60px 0; }
+
+    .container { width: 780px; }
+
+    .main-info { width: 360px; }
+
+    .main-info:nth-child(even) { margin-right: 0; }
+
+    .title { font-size: 38px; }
+
+    .heading-info { font-size: 22px; }
+
+    .main-info {
+        margin-bottom: 45px; 
+        font-size: 14px; 
+    }
+
+    .main-info:nth-last-child(2), .main-info:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/* -------------- Смартфон ------------ */
+
+@media (max-width: 779px) {
+    .section-news { padding: 50px 0; }
+    
+    .container { width: 320px; }
+
+    .main-info { width: 290px; }
+
+    .title { font-size: 28px; }
+
+    .main-info { margin-right: 0; }
+
+    .main-info:nth-last-child(2) { margin-bottom: 45px; }
+}

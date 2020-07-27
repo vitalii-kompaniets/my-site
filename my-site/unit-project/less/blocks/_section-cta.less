@@ -1,0 +1,88 @@
+.section-cta {
+    position: relative;
+    padding: 75px 0 75px;
+    background-color: #2bb279;
+    background-image: url(../img/bg-cta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media (min-width: 768px) {
+        padding: 75px 0 80px;
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 85px 0 95px;
+    }
+}
+
+.section-cta::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 131, 76, 0.7);
+}
+
+.center-cta {
+    position: relative;
+    text-align: center;
+
+    @media (min-width: 540px) {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+        width: 100%;
+    }
+}
+
+.desc-cta {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.364;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 50px;
+    }
+    
+    @media (min-width: 1200px) {
+        line-height: 1;
+        margin-bottom: 45px;
+    }
+}
+
+.desc-cta span {
+    font-weight: 700;
+    letter-spacing: 2.2px;
+}
+
+.button-connect {
+    border-radius: 30px;
+    padding: 22px 44px; 
+    border: none;
+    background-color: #FFF;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    color: #2bb279;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+
+    &:hover, &:focus {
+        outline: none;
+        background-color: #31cc8b;
+        color: #FFF;
+    }
+}
